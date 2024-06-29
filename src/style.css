@@ -1,3 +1,24 @@
-* {
-    background-color: red;
+body {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: green;
+}
+
+nav button {
+    font-size: larger;
+}
+
+nav button.selected {
+    background-color: blue;
+}
+
+#content {
+    margin-top: 40px;
 }

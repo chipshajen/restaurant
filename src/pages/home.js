@@ -1,4 +1,4 @@
-function loadPage(){
+function loadHome(){
     const element = document.querySelector('#content')
 
     const img = new Image()
@@ -15,5 +15,5 @@ function loadPage(){
     element.appendChild(p)
 }
 
-export default loadPage
+export default loadHome
 
